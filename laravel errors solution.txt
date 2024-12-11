@@ -40,3 +40,7 @@ At line:1 char:1
         to
         
         SESSION_DRIVER=file
+
+**5.** SQLSTATE[HY000] [1049] Unknown database 'sample-db' (Connection: mysql, SQL: select count(*) as aggregate from `users` where `email` = r.k@gmail.com)
+**Solution :** .env file
+               DB_CONNECTION=mysql
