@@ -1,4 +1,4 @@
-# laravel-
+# laravel-Solutions
 
 **1.** PS C:\xampp\htdocs\laravel_project> php artisan
 **Could not open input file: artisan**
